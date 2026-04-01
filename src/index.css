@@ -1,0 +1,26 @@
+/* *{
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+*{
+  color: #fff;
+}
+
+body{
+  background-color: #111;
+}
+
+#tasklist::-webkit-scrollbar{
+display: none;
+}
