@@ -1,16 +1,98 @@
-# React + Vite
+# Employee Task Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ��� Description
 
-Currently, two official plugins are available:
+This is a React-based Employee Task Management System where Admin and Employees can log in and manage tasks. The application uses Context API for global state management and LocalStorage for data persistence.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ��� Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* ��� Authentication (Admin & Employee login)
+* ���‍��� Admin Dashboard
+* ��� Employee Dashboard
+* ��� Task tracking with count
+* ��� Data persistence using LocalStorage
+* ��� Toast notifications using react-toastify
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ���️ Tech Stack
+
+* React.js
+* Context API
+* JavaScript (ES6+)
+* CSS
+* LocalStorage
+* React Toastify
+
+---
+
+## ��� Folder Structure
+
+```
+src/
+│
+├── context/
+│   └── AuthProvider.jsx
+│
+├── components/
+│   ├── Auth/
+│   │   └── Login.jsx
+│   └── Dashboard/
+│       ├── AdminDashBoard.jsx
+│       └── EmployeeDashBoard.jsx
+│
+├── utils/
+│   ├── LocalStorage.jsx
+│   └── commonUtilis.js
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+---
+
+## ⚙️ Setup Instructions
+
+1. Clone the repository:
+
+```
+git clone https://github.com/shaii7922/employee-management-system.git
+```
+
+2. Navigate to project folder:
+
+```
+cd employee-management-system
+```
+
+3. Install dependencies:
+
+```
+npm install
+```
+
+4. Start the development server:
+
+```
+npm run dev
+```
+
+---
+
+## ▶️ Usage
+
+* Login as Admin or Employee
+* Admin can view all employees and tasks
+* Employee can view assigned tasks
+* Logout functionality available
+
+---
+
+
+
+## ��� Author
+
+Sahil Thakur
